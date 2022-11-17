@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="/echo" method="POST">
+            <h2>Unified Modeling Language Theory Test</h1>
+            
+            <table>
+                <tr>
+                    <td>Test Subject:</td>
+                    <td>Unified Modeling Language</td>
+                    <td>Time:</td>
+                    <td>100 minute</td>
+                    <td>Score</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Class:</td>
+                    <td>
+                        <select name="class" id="class">
+                            <option value="Class1">Class1</option>
+                            <option value="Class2">Class2</option>
+                        </select>
+                    </td>
+                    <td>Student ID:</td>
+                    <td><input type="text" name="sid" ></td>
+                    <td>Name:</td>
+                    <td><input type="text" name="name" ></td>
+                </tr>
+
+            </table>
+            
+            <ol>
+                <li>
+                    <h2>Fill in the blanks(5 points per space, 20 points total)</h2>
+                    <ol>
+                        <li>
+                            The full name of UML in chinese is: <input type="text" name="q1.1">
+                        </li>
+                        <li>
+                            The most prominent feature of the object is: <input type="text" name="q1.2"> <input type="text" name="q1.3"> <input type="text" name="q1.4">
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <h2>Multiple choice question(10 points per space, 20 points total</h2>
+                    <ol>
+                        <li>
+                            <h4> The relationship between UML and soft eng is:</h4>
+                                <input type="radio" id="1a" name="1q" value="1a">
+                                <label for="1a">(A) UML is soft eng</label><br>
+                                <input type="radio" id="1b" name="1q" value="1b">
+                                <label for="1b">(B) UML participates n serveral stages of the soft dev process in soft eng</label><br>
+                                <input type="radio" id="1c" name="1q" value="1c">
+                                <label for="1c">(C) UML has nothing to do with soft eng</label><br>
+                                <input type="radio" id="1d" name="1q" value="1d">
+                                <label for="1d">(D) UML is part of soft eng</label>
+                        </li>
+                        <li>
+                            <h4> Java language support:</h4>
+                                <input type="radio" id="2a" name="2q" value="2a">
+                                <label for="2a">(A) Single inheritance</label><br>
+                                <input type="radio" id="2b" name="2q" value="2b">
+                                <label for="2b">(B) Multi inheritance</label><br>
+                                <input type="radio" id="2c" name="2q" value="2c">
+                                <label for="2c">(C) Single and multi support</label><br>
+                                <input type="radio" id="2d" name="2q" value="2d">
+                                <label for="2d">(D) Single and multi NOT support</label>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <h2>Multiple choice (10 points per space,20 points total)</h2>
+                    <ol>
+                        <li>
+                            <h4>The Granularity of the use case is divided into the following three:</h4>
+                            <input type="checkbox" id="3.1" name="3" value="3.1">
+                            <label for="3.1"> Overview level</label><br>
+                            <input type="checkbox" id="3.2" name="3" value="3.2">
+                            <label for="3.2"> Demand level</label><br>
+                            <input type="checkbox" id="3.3" name="3" value="3.3">
+                            <label for="3.3"> User target level</label><br> 
+                            <input type="checkbox" id="3.4" name="3" value="3.4">
+                            <label for="3.4"> Sub-function level</label><br> 
+
+                        </li>
+
+                        <li>
+                            <h4>The class diagram consists of which of the following three parts:</h4>
+                            <input type="checkbox" id="4.1" name="4" value="4.1">
+                            <label for="4.1"> Name</label><br>
+                            <input type="checkbox" id="4.2" name="4" value="4.2">
+                            <label for="4.2"> Attribute</label><br>
+                            <input type="checkbox" id="4.4" name="4" value="4.4">
+                            <label for="4.4"> Operation</label><br> 
+                            <input type="checkbox" id="4.4" name="4" value="4.4">
+                            <label for="4.4"> Function</label><br> 
+
+                        </li>
+
+
+
+                    </ol>
+                    
+                </li>
+                <li>
+                    <h2>True of False (10 points per space,20 points total)</h2>
+                    <ol>
+                        <li>
+                            Use case diagrams are only used to communicate awith customers to determine demand.
+                            <input type="radio" id="True" name="5" value="True">
+                            <label for="True">✓</label>
+                            <input type="radio" id="False" name="5" value="False">
+                            <label for="False">X</label>
+                        </li>
+                        <li>
+                            In this state diagram, the termination state allows any no. of multiples in a state diagram.
+                            <input type="radio" id="True" name="6" value="True">
+                            <label for="True">✓</label>
+                            <input type="radio" id="False" name="6" value="False">
+                            <label for="False">X</label>
+                        </li>
+
+                    </ol>
+                </li>
+                <li>
+                    <h2>Short answer question (20 points per space, 20 points total)</h2>
+                    <ol>
+                        <li>
+                            <h4>Briefly describe what the model is and how it behaves?</h4>
+                            <textarea rows="15" cols="80" id="tx" name="tx">
+
+                            </textarea>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+            <p><button type="submit">Calculating score</button></p>
+          </form>
+    </body>
+</html>
